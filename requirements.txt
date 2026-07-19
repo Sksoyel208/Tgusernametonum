@@ -1,4 +1,4 @@
 fastapi
 uvicorn
-duckdb
-huggingface_hub
+requests
+python-multipart
