@@ -53,7 +53,3 @@ def search(q: str = Query(...)):
         return {"count": len(results), "results": results}
     except Exception as e:
         return {"error": str(e)}
-
-@app.get("/health")
-def health():
-    return {"status": "ok"}
